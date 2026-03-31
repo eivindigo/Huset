@@ -1,0 +1,402 @@
+{
+    "400": {
+        "en": {
+            "title": "Bad Request",
+            "description": "Something was wrong with that request. Please go back and try again."
+        },
+        "no": {
+            "title": "Ugyldig forespørsel",
+            "description": "Noe var galt med den forespørselen. Gå tilbake og prøv igjen."
+        }
+    },
+    "401": {
+        "en": {
+            "title": "Login Required",
+            "description": "You need to log in to see this page."
+        },
+        "no": {
+            "title": "Innlogging kreves",
+            "description": "Du må logge inn for å se denne siden."
+        }
+    },
+    "402": {
+        "en": {
+            "title": "Payment Required",
+            "description": "You need to pay to see this page."
+        },
+        "no": {
+            "title": "Betaling kreves",
+            "description": "Du må betale for å se denne siden."
+        }
+    },
+    "403": {
+        "en": {
+            "title": "Access Denied",
+            "description": "Sorry, you don't have access to this page."
+        },
+        "no": {
+            "title": "Ingen tilgang",
+            "description": "Beklager, du har ikke tilgang til denne siden."
+        }
+    },
+    "404": {
+        "en": {
+            "title": "Page Not Found",
+            "description": "We couldn't find the page you were looking for. It may have been moved or deleted."
+        },
+        "no": {
+            "title": "Siden ble ikke funnet",
+            "description": "Vi fant ikke siden du lette etter. Den kan ha blitt flyttet eller slettet."
+        }
+    },
+    "405": {
+        "en": {
+            "title": "Not Allowed",
+            "description": "That action isn't allowed here. Please go back and try something else."
+        },
+        "no": {
+            "title": "Ikke tillatt",
+            "description": "Den handlingen er ikke tillatt her. Gå tilbake og prøv noe annet."
+        }
+    },
+    "406": {
+        "en": {
+            "title": "Can't Show This",
+            "description": "We can't show this page in the format you asked for."
+        },
+        "no": {
+            "title": "Kan ikke vises",
+            "description": "Vi kan ikke vise denne siden i formatet du ba om."
+        }
+    },
+    "407": {
+        "en": {
+            "title": "Login Required",
+            "description": "Your network requires you to log in before you can visit this page."
+        },
+        "no": {
+            "title": "Innlogging kreves",
+            "description": "Nettverket ditt krever at du logger inn før du kan besøke denne siden."
+        }
+    },
+    "408": {
+        "en": {
+            "title": "Request Took Too Long",
+            "description": "The page took too long to load. Please try again."
+        },
+        "no": {
+            "title": "Forespørselen tok for lang tid",
+            "description": "Siden brukte for lang tid på å laste. Vennligst prøv igjen."
+        }
+    },
+    "409": {
+        "en": {
+            "title": "Conflict",
+            "description": "Your changes conflict with other changes that were made. Please try again."
+        },
+        "no": {
+            "title": "Konflikt",
+            "description": "Endringene dine er i konflikt med andre endringer som ble gjort. Vennligst prøv igjen."
+        }
+    },
+    "410": {
+        "en": {
+            "title": "Gone",
+            "description": "This page has been permanently removed and is no longer available."
+        },
+        "no": {
+            "title": "Borte",
+            "description": "Denne siden er permanent fjernet og er ikke lenger tilgjengelig."
+        }
+    },
+    "411": {
+        "en": {
+            "title": "Something Missing",
+            "description": "The request was missing some required information. Please try again."
+        },
+        "no": {
+            "title": "Noe mangler",
+            "description": "Forespørselen manglet nødvendig informasjon. Vennligst prøv igjen."
+        }
+    },
+    "412": {
+        "en": {
+            "title": "Conditions Not Met",
+            "description": "Something has changed since you last visited. Please refresh and try again."
+        },
+        "no": {
+            "title": "Betingelser ikke oppfylt",
+            "description": "Noe har endret seg siden sist du besøkte. Oppdater siden og prøv igjen."
+        }
+    },
+    "413": {
+        "en": {
+            "title": "Too Large",
+            "description": "What you tried to send is too big. Try sending something smaller."
+        },
+        "no": {
+            "title": "For stort",
+            "description": "Det du prøvde å sende er for stort. Prøv å sende noe mindre."
+        }
+    },
+    "414": {
+        "en": {
+            "title": "Address Too Long",
+            "description": "The web address is too long. Try using a shorter one."
+        },
+        "no": {
+            "title": "Adressen er for lang",
+            "description": "Nettadressen er for lang. Prøv å bruke en kortere."
+        }
+    },
+    "415": {
+        "en": {
+            "title": "File Type Not Supported",
+            "description": "That file type isn't supported. Please try a different file."
+        },
+        "no": {
+            "title": "Filtypen støttes ikke",
+            "description": "Den filtypen støttes ikke. Vennligst prøv en annen fil."
+        }
+    },
+    "416": {
+        "en": {
+            "title": "Can't Load That Part",
+            "description": "We couldn't load the part of the file you asked for."
+        },
+        "no": {
+            "title": "Kan ikke laste den delen",
+            "description": "Vi kunne ikke laste den delen av filen du ba om."
+        }
+    },
+    "417": {
+        "en": {
+            "title": "Something Went Wrong",
+            "description": "The page couldn't be loaded as expected. Please try again."
+        },
+        "no": {
+            "title": "Noe gikk galt",
+            "description": "Siden kunne ikke lastes som forventet. Vennligst prøv igjen."
+        }
+    },
+    "418": {
+        "en": {
+            "title": "I'm a Teapot",
+            "description": "This server is a teapot and refuses to make coffee. This is not a real error — just a fun one!"
+        },
+        "no": {
+            "title": "Jeg er en tekanne",
+            "description": "Denne serveren er en tekanne og nekter å lage kaffe. Dette er ikke en ekte feil — bare en morsom en!"
+        }
+    },
+    "421": {
+        "en": {
+            "title": "Wrong Server",
+            "description": "Your request ended up at the wrong server. Please try again."
+        },
+        "no": {
+            "title": "Feil server",
+            "description": "Forespørselen din havnet på feil server. Vennligst prøv igjen."
+        }
+    },
+    "422": {
+        "en": {
+            "title": "Could Not Process",
+            "description": "We understood your request but couldn't process it. Please check your input and try again."
+        },
+        "no": {
+            "title": "Kunne ikke behandle",
+            "description": "Vi forsto forespørselen din, men kunne ikke behandle den. Sjekk det du fylte inn og prøv igjen."
+        }
+    },
+    "423": {
+        "en": {
+            "title": "Locked",
+            "description": "This page is temporarily locked. Please try again later."
+        },
+        "no": {
+            "title": "Låst",
+            "description": "Denne siden er midlertidig låst. Vennligst prøv igjen senere."
+        }
+    },
+    "424": {
+        "en": {
+            "title": "Something Else Failed First",
+            "description": "This couldn't be done because something it depends on failed first."
+        },
+        "no": {
+            "title": "Noe annet feilet først",
+            "description": "Dette kunne ikke gjøres fordi noe det er avhengig av feilet først."
+        }
+    },
+    "425": {
+        "en": {
+            "title": "Too Early",
+            "description": "The server isn't ready to handle this request yet. Please try again shortly."
+        },
+        "no": {
+            "title": "For tidlig",
+            "description": "Serveren er ikke klar til å håndtere denne forespørselen ennå. Prøv igjen om litt."
+        }
+    },
+    "426": {
+        "en": {
+            "title": "Update Needed",
+            "description": "Your browser or app needs to be updated to use this page."
+        },
+        "no": {
+            "title": "Oppdatering nødvendig",
+            "description": "Nettleseren eller appen din må oppdateres for å bruke denne siden."
+        }
+    },
+    "428": {
+        "en": {
+            "title": "Conditions Required",
+            "description": "This request needs extra information to go through. Please try again."
+        },
+        "no": {
+            "title": "Betingelser kreves",
+            "description": "Denne forespørselen trenger ekstra informasjon for å gå gjennom. Vennligst prøv igjen."
+        }
+    },
+    "429": {
+        "en": {
+            "title": "Too Many Requests",
+            "description": "You've made too many requests. Please wait a moment and try again."
+        },
+        "no": {
+            "title": "For mange forespørsler",
+            "description": "Du har gjort for mange forespørsler. Vent litt og prøv igjen."
+        }
+    },
+    "431": {
+        "en": {
+            "title": "Request Too Large",
+            "description": "Your request is too large for us to handle. Try clearing your cookies and refreshing."
+        },
+        "no": {
+            "title": "Forespørselen er for stor",
+            "description": "Forespørselen din er for stor til at vi kan håndtere den. Prøv å slette informasjonskapsler og oppdater siden."
+        }
+    },
+    "451": {
+        "en": {
+            "title": "Not Available",
+            "description": "This page is not available for legal reasons."
+        },
+        "no": {
+            "title": "Ikke tilgjengelig",
+            "description": "Denne siden er ikke tilgjengelig av juridiske grunner."
+        }
+    },
+    "500": {
+        "en": {
+            "title": "Something Went Wrong",
+            "description": "We're having a problem on our end. Please try again later."
+        },
+        "no": {
+            "title": "Noe gikk galt",
+            "description": "Vi har et problem på vår side. Vennligst prøv igjen senere."
+        }
+    },
+    "501": {
+        "en": {
+            "title": "Not Supported",
+            "description": "This feature isn't available yet. Please try again later."
+        },
+        "no": {
+            "title": "Ikke støttet",
+            "description": "Denne funksjonen er ikke tilgjengelig ennå. Vennligst prøv igjen senere."
+        }
+    },
+    "502": {
+        "en": {
+            "title": "Connection Problem",
+            "description": "We got a bad response from another server. Please try again later."
+        },
+        "no": {
+            "title": "Tilkoblingsproblem",
+            "description": "Vi fikk et dårlig svar fra en annen server. Vennligst prøv igjen senere."
+        }
+    },
+    "503": {
+        "en": {
+            "title": "Temporarily Unavailable",
+            "description": "We're down for a little while. Please check back soon."
+        },
+        "no": {
+            "title": "Midlertidig utilgjengelig",
+            "description": "Vi er nede en liten stund. Kom tilbake om litt."
+        }
+    },
+    "504": {
+        "en": {
+            "title": "Took Too Long",
+            "description": "Another server took too long to respond. Please try again later."
+        },
+        "no": {
+            "title": "Tok for lang tid",
+            "description": "En annen server brukte for lang tid på å svare. Vennligst prøv igjen senere."
+        }
+    },
+    "505": {
+        "en": {
+            "title": "Not Supported",
+            "description": "Your browser is using a version we don't support. Please update your browser."
+        },
+        "no": {
+            "title": "Ikke støttet",
+            "description": "Nettleseren din bruker en versjon vi ikke støtter. Vennligst oppdater nettleseren din."
+        }
+    },
+    "506": {
+        "en": {
+            "title": "Setup Problem",
+            "description": "There's a problem with how this page is set up. We're working on it."
+        },
+        "no": {
+            "title": "Oppsettsproblem",
+            "description": "Det er et problem med hvordan denne siden er satt opp. Vi jobber med det."
+        }
+    },
+    "507": {
+        "en": {
+            "title": "Out of Space",
+            "description": "We've run out of storage space. Please try again later."
+        },
+        "no": {
+            "title": "Tom for plass",
+            "description": "Vi har gått tom for lagringsplass. Vennligst prøv igjen senere."
+        }
+    },
+    "508": {
+        "en": {
+            "title": "Loop Detected",
+            "description": "The page got stuck in a loop. Please try again later."
+        },
+        "no": {
+            "title": "Løkke oppdaget",
+            "description": "Siden havnet i en løkke. Vennligst prøv igjen senere."
+        }
+    },
+    "510": {
+        "en": {
+            "title": "More Needed",
+            "description": "This page needs something extra that isn't available right now."
+        },
+        "no": {
+            "title": "Mer trengs",
+            "description": "Denne siden trenger noe ekstra som ikke er tilgjengelig akkurat nå."
+        }
+    },
+    "511": {
+        "en": {
+            "title": "Network Login Required",
+            "description": "You need to log in to the network before you can visit this page."
+        },
+        "no": {
+            "title": "Nettverksinnlogging kreves",
+            "description": "Du må logge inn på nettverket før du kan besøke denne siden."
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "items": [
+        { "label": "Hjem",        "href": "/",        "route": "frontpage" },
+        { "label": "Om",          "href": "/about",   "route": "about" },
+        { "label": "Kontakt",     "href": "/contact", "route": "contact" },
+        {
+            "label": "Husfunksjoner",
+            "href": "/publicDisplay/calendar",
+            "route": "publicDisplay",
+            "children": [
+                { "label": "Calendar", "href": "/publicDisplay/calendar", "route": "calendar" }
+            ]
+        },
+        {
+            "label": "Bruker",
+            "href": "/user",
+            "route": "user",
+            "children": [
+                { "label": "Profil",     "href": "/user",         "route": "index" },
+                { "label": "Rediger",    "href": "/user/edit",    "route": "edit" },
+                { "label": "Historikk",  "href": "/user/history", "route": "history" },
+                { "label": "Logg inn",   "href": "/user/login",   "route": "login" }
+            ]
+        },
+        {
+            "label": "Admin",
+            "href": "/admin",
+            "route": "admin",
+            "children": [
+                { "label": "Capability",       "href": "/admin/capability",      "route": "capability" },
+                { "label": "Roller",            "href": "/admin/role",             "route": "role" },
+                { "label": "Opprett bruker",    "href": "/admin/add-user",         "route": "add-user" },
+                { "label": "Tilbakestill passord", "href": "/admin/reset-password", "route": "reset-password" }
+            ]   
+        }
+    ]
+}

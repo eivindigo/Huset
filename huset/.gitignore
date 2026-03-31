@@ -1,0 +1,19 @@
+/.env
+/vendor/
+/node_modules/
+/dist/
+/build/
+/tmp/
+/logs/
+*.log
+/.idea/
+/.vscode/
+.DS_Store
+/.phpunit.result.cache
+/.cache/
+/.continue/
+composer.lock
+npm-debug.log
+yarn-error.log
+boot tailwind.cmd
+tailwindcss-windows-x64.exe

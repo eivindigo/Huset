@@ -1,0 +1,20 @@
+{
+    "frontpage": "frontpage.php",
+    "about": "about.php",
+    "contact": "contact.php",
+    "user": {
+        "index": "index.php",
+        "edit": "edit.php",
+        "history": "history.php",
+        "login": "login.php"
+    },
+    "house": {
+        "calendar": "calendar.php"
+    },
+    "admin": {
+        "capability": "capability.php",
+        "role": "role.php",
+        "add-user": "add-user.php",
+        "reset-password": "reset-password.php"
+    }
+}

@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@source "../**/*.php";
+@source "../js/**/*.js";
+
+@theme {
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+    --color-primary: #ea580c;
+    --color-primary-hover: #c2410c;
+    --color-primary-light: #fff7ed;
+    --color-primary-100: #ffedd5;
+    --color-primary-200: #fed7aa;
+    --color-primary-300: #fdba74;
+
+    --color-secondary: #166534;
+    --color-secondary-light: #f0fdf4;
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-primary text-white font-bold py-2 px-4 rounded-lg;
+    }
+
+    .card {
+        @apply bg-white shadow-lg rounded-lg p-6;
+    }
+
+    .text-heading {
+        @apply text-2xl font-bold text-slate-900;
+    }
+
+    .text-subheading {
+        @apply text-lg text-slate-500;
+    }
+
+    .container {
+        @apply max-w-5xl mx-auto px-4;
+    }
+
+    .form-input {
+        @apply w-full rounded-xl border border-slate-300 px-4 py-2.5 text-sm text-slate-900 focus:border-primary focus:ring-2 focus:ring-primary-200 outline-none transition-all;
+    }
+}
+
+.bg-image-placeholder {
+  background-image: url('https://cdn.tailkit.com/media/placeholders/photo-wQLAGv4_OYs-1920x1200.jpg');
+}
+
+.calendar-height {
+  height: 131px;
+}
+
+.user-icon {
+  display: flex;
+  height: 4rem;
+  width: 4rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  background: linear-gradient(to bottom right, var(--primary), var(--primary-hover));
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  box-shadow: var(--shadow-lg);
+}
+
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, var(--slate-50), var(--slate-100));
+  font-family: var(--font-sans);
+  color: var(--slate-900);
+}
+.card {
+  border-radius: 1rem;
+  border: 1px solid var(--slate-200);
+  background: var(--white);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+}
+.button-primary {
+  border-radius: 1rem;
+  background: var(--primary);
+  color: var(--white);
+  padding: 0.625rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.button-primary:hover {
+  background: var(--primary-hover);
+}

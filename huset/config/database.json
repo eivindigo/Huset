@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "dbname": "mimir",
+    "username": "root",
+    "password": "",
+    "charset": "utf8mb4"
+}
